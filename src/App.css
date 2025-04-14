@@ -1,0 +1,77 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light Blue background */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  /* Navbar styling with gradient background */
+  nav {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #dcdcdc;
+  }
+  
+  /* Headings */
+  h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Container styling for pages */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styles */
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
